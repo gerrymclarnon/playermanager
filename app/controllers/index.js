@@ -1,6 +1,6 @@
 import Ember from 'ember';
 import ENV from 'playermanager/config/environment';
-import {firebase} from 'playermanager/adapters/application';
+import {firebase, ApplicationAdapter} from 'playermanager/adapters/application';
 
 var sum = Ember.computed.sum;
 var mapBy = Ember.computed.mapBy;
