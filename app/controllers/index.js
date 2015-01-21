@@ -1,4 +1,6 @@
 import Ember from 'ember';
+import ENV from 'playermanager/config/environment';
+import {firebase} from 'playermanager/adapters/application';
 
 var sum = Ember.computed.sum;
 var mapBy = Ember.computed.mapBy;
@@ -27,21 +29,19 @@ export default Ember.ArrayController.extend({
       model.destroyRecord();
     },
     onLoginButtonClicked: function(model) {
-        var commentsRef = new Firebase('https://playermanager.firebaseio.com/teams/broomhillrovers');
-//Create an Firebase Simple Login client so we can do Facebook auth
-        var auth = new FirebaseSimpleLogin(commentsRef, function(error, user) {
+//        var ref = new window.Firebase(ENV.firebase_instance);
+        var ref = firebase.get('firebase');
+        ref.authWithPassword({
+            "email": "admin@playermanager.net",
+            "password": "thegaffer",
+            "rememberMe": false
+        }, function (error, authData) {
             if (error) {
-                // an error occurred while attempting login
-                console.log(error);
-            } else if (user) {
-//                myUserID = user.id;
-                $("#loginDiv").text(user.first_name + " " + user.last_name + " (" + user.email + ")");
+                console.log("Login Failed!", error);
             } else {
-                // User logged out
+                console.log("Authenticated successfully with payload:", authData);
             }
         });
-
-        auth.login("password", { email: "admin@playermanager.net", password: "thegaffer", rememberMe: false });
     }
   }
 });

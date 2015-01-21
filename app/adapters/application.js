@@ -1,6 +1,10 @@
 import DS from 'ember-data';
 import ENV from 'playermanager/config/environment';
 
-export default DS.FirebaseAdapter.extend({
-  firebase: new window.Firebase('https://' + ENV.firebase_instance + '.firebaseio.com' + '/teams/broomhillrovers')
+var firebase = new window.Firebase(ENV.firebase_instance);
+
+var ApplicationAdapter = DS.FirebaseAdapter.extend({
+  firebase: firebase
 });
+
+export {firebase, ApplicationAdapter};

@@ -4,7 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'playermanager',
 //    firebase_instance: 'sweltering-fire-8953',
-    firebase_instance: 'playermanager',
+    firebase_instance: 'https://playermanager.firebaseio.com/teams/broomhillrovers',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
