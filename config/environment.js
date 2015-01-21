@@ -2,8 +2,9 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'ember-cli-ember-fire',
-    firebase_instance: 'sweltering-fire-8953',
+    modulePrefix: 'playermanager',
+//    firebase_instance: 'sweltering-fire-8953',
+    firebase_instance: 'playermanager',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',

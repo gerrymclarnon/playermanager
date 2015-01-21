@@ -1,17 +1,18 @@
 <div class="leaderboard">
-  {{#each}}
-    <div {{bind-attr class=":player selected"}} {{action 'selectPlayer' this}}>
-      <span class="name">{{name}}</span>
-      <span class="score">{{score}}</span>
+  {{#each player in model itemController="player"}}
+    <div {{bind-attr class=":player player.selected"}} {{action 'selectPlayer' player}}>
+      <span class="name">{{player.firstName}}</span>
+      <span class="score">{{player.lastName}}</span>
     </div>
     </li>
   {{/each}}
   </ul>
 </div>
-<h1>total: {{total}}</h1>
+<h1>total: {{content.length}}</h1>
 <div class="details">
 {{#if selectedPlayer}}
   {{render 'player/edit' selectedPlayer}}
+{{else}}
+  {{render 'player/new'}}
 {{/if}}
-{{render 'player/new'}}
 </div>

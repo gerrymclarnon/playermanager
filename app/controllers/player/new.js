@@ -1,18 +1,18 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-  name: null,
-  score: null,
+  firstName: null,
+  lastName: null,
   actions: {
     createUser: function() {
       this.store.createRecord('player', {
-        name: this.get('name'),
-        score: parseInt(this.get('score'), 10)
+        firstName: this.get('firstName'),
+        lastName: this.get('lastName')
       }).save();
 
       this.setProperties({
-        name: null,
-        score: null
+        firstName: null,
+        lastName: null
       });
     }
   }

@@ -1,13 +1,13 @@
 <form {{action "createUser" on="submit"}}>
   <div class="input">
-    <label for="name">name:</label>
-    {{input name="name" value=name}}
+    <label for="firstName">name:</label>
+    {{input name="firstName" value=firstName}}
   </div>
   <div class="input">
-    <label for="score">score:</label>
-    {{input type="number" name="score" value=score}}
+    <label for="lastName">email:</label>
+    {{input type="email" name="lastName" value=lastName}}
   </div>
   <div class="actions">
-    <button type="submit">add User</button>
+    <button type="submit">Add User</button>
   </div>
 </form>
