@@ -1,3 +1,7 @@
+<div id="loginDiv">
+    <a href="#" {{action 'onLoginButtonClicked'}} id="login">Login</a>
+</div>
+
 <div class="leaderboard">
   {{#each player in model itemController="player"}}
     <div {{bind-attr class=":player player.selected"}} {{action 'selectPlayer' player}}>
