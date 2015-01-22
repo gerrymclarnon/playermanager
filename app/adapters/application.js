@@ -7,4 +7,4 @@ var ApplicationAdapter = DS.FirebaseAdapter.extend({
   firebase: firebase
 });
 
-export {firebase, ApplicationAdapter};
+export default ApplicationAdapter;

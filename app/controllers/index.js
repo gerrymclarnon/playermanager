@@ -1,6 +1,5 @@
 import Ember from 'ember';
 import ENV from 'playermanager/config/environment';
-import {firebase, ApplicationAdapter} from 'playermanager/adapters/application';
 
 var sum = Ember.computed.sum;
 var mapBy = Ember.computed.mapBy;
@@ -30,7 +29,8 @@ export default Ember.ArrayController.extend({
     },
     onLoginButtonClicked: function(model) {
 //        var ref = new window.Firebase(ENV.firebase_instance);
-        var ref = firebase.get('firebase');
+//        var ref = firebase.get('firebase');
+        var ref = this.firebase;
         ref.authWithPassword({
             "email": "admin@playermanager.net",
             "password": "thegaffer",
