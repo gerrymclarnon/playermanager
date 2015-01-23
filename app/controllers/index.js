@@ -1,5 +1,4 @@
 import Ember from 'ember';
-import ENV from 'playermanager/config/environment';
 
 var sum = Ember.computed.sum;
 var mapBy = Ember.computed.mapBy;
@@ -26,22 +25,6 @@ export default Ember.ArrayController.extend({
     },
     destroyUser: function(model) {
       model.destroyRecord();
-    },
-    onLoginButtonClicked: function(model) {
-//        var ref = new window.Firebase(ENV.firebase_instance);
-//        var ref = firebase.get('firebase');
-        var ref = this.firebase;
-        ref.authWithPassword({
-            "email": "admin@playermanager.net",
-            "password": "thegaffer",
-            "rememberMe": false
-        }, function (error, authData) {
-            if (error) {
-                console.log("Login Failed!", error);
-            } else {
-                console.log("Authenticated successfully with payload:", authData);
-            }
-        });
     }
   }
 });

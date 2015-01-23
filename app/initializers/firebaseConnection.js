@@ -8,7 +8,7 @@ export default {
     initialize: function(container, application) {
         if (!Ember.isNone(container)) {
             application.register('connection:main', firebase, {instantiate: false});
-            application.inject('controller:index', 'firebase', 'connection:main');
+            application.inject('controller:login', 'firebase', 'connection:main');
         }
     }
 };
