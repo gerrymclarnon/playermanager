@@ -1,0 +1,30 @@
+{{partial "header"}}
+
+<section class="container">
+    <div class="row">
+        {{#if errorMessage}}
+        <div class="alert alert-error">
+            {{errorMessage}}
+        </div>
+        {{/if}}
+        <div class="span12">
+            <div class="logreg-page">
+                <form id="login_form" class="form-horizontal" autocomplete="off">
+                    <fieldset>
+                        <legend>Log in to SmartWorks Admin</legend>
+                        <div class="control-group">
+                            {{input id="username" value=username}}
+                            {{input type="password" id="password" value=password}}
+                        </div>
+                        </hr>
+                        <div class="control-group">
+                            <input type="submit" value="Login" class="btn btn-success right" {{action "login" username password "home"}} />
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{partial "footer"}}
