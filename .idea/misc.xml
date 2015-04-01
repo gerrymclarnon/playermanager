@@ -7,10 +7,8 @@
       </map>
     </option>
   </component>
-  <component name="IdProvider" IDEtalkID="18B09DDED813C03750A704D8ED3DF493" />
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="IdProvider" IDEtalkID="207B875CBC1D7344B2483762DA09E4D4" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />

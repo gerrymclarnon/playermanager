@@ -13,7 +13,7 @@ export default Ember.Controller.extend({
                     console.log("Login Failed!", error);
                 } else {
                     console.log("Authenticated successfully with payload:", authData);
-                    controller.transitionTo('players');
+                    controller.transitionToRoute('players');
                 }
             });
         }
