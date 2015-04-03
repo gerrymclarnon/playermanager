@@ -3,9 +3,9 @@
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'playermanager',
-//    firebase_instance: 'sweltering-fire-8953',
-    firebase_instance: 'https://playermanager.firebaseio.com/teams/broomhillrovers',
     environment: environment,
+    firebase: 'https://playermanager.firebaseio.com/teams/broomhillrovers',
+    contentSecurityPolicy: { 'connect-src': "'self' wss://*.firebaseio.com" },
     baseURL: '/',
     locationType: 'auto',
     EmberENV: {

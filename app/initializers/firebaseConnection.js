@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import ENV from 'playermanager/config/environment';
 
-var firebase = new window.Firebase(ENV.firebase_instance);
+var firebase = new window.Firebase(ENV.firebase);
 
 export default {
     name: 'firebaseConnection',

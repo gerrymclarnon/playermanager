@@ -1,10 +1,7 @@
-import DS from 'ember-data';
-import ENV from 'playermanager/config/environment';
+import config from '../config/environment';
+import Firebase from 'firebase';
+import FirebaseAdapter from 'emberfire/adapters/firebase';
 
-var firebase = new window.Firebase(ENV.firebase_instance);
-
-var ApplicationAdapter = DS.FirebaseAdapter.extend({
-  firebase: firebase
+export default FirebaseAdapter.extend({
+  firebase: new Firebase(config.firebase)
 });
-
-export default ApplicationAdapter;
