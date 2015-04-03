@@ -1,13 +1,12 @@
-  <div class="input">
+<div class="input">
     <label for="name">name:</label>
-    {{input name="name" value=firstName}}
-  </div>
-  <div class="input">
+    {{input name="name" value=model.firstName}}
+</div>
+<div class="input">
     <label for="lastName">email:</label>
-    {{input type="email" name="lastName" value=lastName}}
-  </div>
-<button {{action 'givePoints' this 5}}> Given 5 Points </button>
-<button {{action 'takePoints' this 5}}> take 5 Points </button>
+    {{input type="email" name="lastName" value=model.lastName}}
+</div>
+<button {{action 'update' this}}> Update</button>
 <button {{action 'destroyUser' this}}> Destroy</button>
 <button {{action 'cancel'}}>Cancel</button>
 

@@ -1,11 +1,11 @@
 <form {{action "createUser" on="submit"}}>
   <div class="input">
     <label for="firstName">name:</label>
-    {{input name="firstName" value=firstName}}
+    {{input name="firstName" value=model.firstName}}
   </div>
   <div class="input">
     <label for="lastName">email:</label>
-    {{input type="email" name="lastName" value=lastName}}
+    {{input type="email" name="lastName" value=model.lastName}}
   </div>
   <div class="actions">
     <button type="submit">Add User</button>
