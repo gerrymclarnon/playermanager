@@ -1,7 +1,8 @@
+import config from 'playermanager/config/environment';
+import Firebase from 'firebase';
 import Ember from 'ember';
-import ENV from 'playermanager/config/environment';
 
-var firebase = new window.Firebase(ENV.firebase);
+var firebase = new Firebase(config.firebase);
 
 export default {
     name: 'firebaseConnection',
@@ -9,6 +10,7 @@ export default {
         if (!Ember.isNone(container)) {
             application.register('connection:main', firebase, {instantiate: false});
             application.inject('controller:login', 'firebase', 'connection:main');
+            application.inject('adapter:application', 'firebase', 'connection:main');
         }
     }
 };
