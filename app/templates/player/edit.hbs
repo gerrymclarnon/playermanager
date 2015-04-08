@@ -6,7 +6,7 @@
     <label for="lastName">email:</label>
     {{input type="email" name="lastName" value=model.lastName}}
 </div>
-<button {{action 'update' this}}> Update</button>
-<button {{action 'destroyUser' this}}> Destroy</button>
-<button {{action 'cancel'}}>Cancel</button>
+<button {{action 'update' this}}>Update</button>
+<button {{action 'delete' this}}>Delete</button>
+<button {{action 'cancel' this}}>Cancel</button>
 

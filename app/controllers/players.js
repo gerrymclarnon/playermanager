@@ -4,20 +4,19 @@ export default Ember.Controller.extend({
     selectedPlayer: null,
 
     actions: {
-        selectPlayer: function (player) {
+        selectPlayer: function(player) {
             this.set('selectedPlayer', player);
         },
-        cancel: function(){
-            var selectedPlayer = this.get('selectedPlayer');
-            selectedPlayer.rollback();
+        cancel: function(player) {
+            player.rollback();
             this.set('selectedPlayer', null);
         },
-        update: function(){
-            var selectedPlayer = this.get('selectedPlayer');
-            selectedPlayer.save();
+        update: function(player) {
+            player.save();
         },
-        destroyUser: function(model) {
-            model.destroyRecord();
+        delete: function(player) {
+            player.destroyRecord();
+            this.set('selectedPlayer', null);
         }
     }
 });
