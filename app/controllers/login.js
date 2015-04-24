@@ -11,6 +11,7 @@ export default Ember.Controller.extend({
             }, function (error, authData) {
                 if (error) {
                     console.log("Login Failed!", error);
+                    controller.set('errorMessage', error.message);
                 } else {
                     console.log("Authenticated successfully with payload:", authData);
                     controller.transitionToRoute('players');
