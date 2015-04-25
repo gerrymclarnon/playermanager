@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0feceb1-a268-4315-abcd-3ccb08a837dc" name="Default" comment="Updated models.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+    <list default="true" id="c0feceb1-a268-4315-abcd-3ccb08a837dc" name="Default" comment="Added Facebook login.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/login.hbs" afterPath="$PROJECT_DIR$/app/templates/login.hbs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/login.js" afterPath="$PROJECT_DIR$/app/controllers/login.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -82,17 +81,17 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/login.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26757607" vertical-offset="0" max-vertical-offset="953">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="465">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -158,11 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.hbs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="login.hbs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/login.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="765">
-              <caret line="34" column="131" selection-start-line="34" selection-start-column="131" selection-end-line="34" selection-end-column="131" />
+            <state vertical-scroll-proportion="0.55089194" vertical-offset="0" max-vertical-offset="953">
+              <caret line="35" column="132" selection-start-line="35" selection-start-column="132" selection-end-line="35" selection-end-column="132" />
               <folding />
             </state>
           </provider>
@@ -202,9 +201,9 @@
         <option value="$PROJECT_DIR$/app/templates/-header.hbs" />
         <option value="$PROJECT_DIR$/app/templates/players.hbs" />
         <option value="$PROJECT_DIR$/app/controllers/couchdb_view.js" />
+        <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/controllers/login.js" />
         <option value="$PROJECT_DIR$/app/templates/login.hbs" />
-        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -525,11 +524,15 @@
       <created>1428507993554</created>
       <updated>1428507993554</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Facebook login.">
+      <created>1429964883766</created>
+      <updated>1429964883766</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40392000" />
+    <option name="totallyTimeSpent" value="48639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="133" y="114" width="1558" height="1074" extended-state="0" />
@@ -549,18 +552,18 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32929516" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20860077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20860077" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43148357" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -586,7 +589,8 @@
     <MESSAGE value="Updated to SASS." />
     <MESSAGE value="Injected Firebase connection into ApplicationAdapter" />
     <MESSAGE value="Updated models." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated models." />
+    <MESSAGE value="Added Facebook login." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Facebook login." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -945,10 +949,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/login.hbs">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="765">
-          <caret line="34" column="131" selection-start-line="34" selection-start-column="131" selection-end-line="34" selection-end-column="131" />
+        <state vertical-scroll-proportion="-15.625" vertical-offset="0" max-vertical-offset="465">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -956,15 +960,15 @@
     <entry file="file://$PROJECT_DIR$/app/controllers/login.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/templates/login.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26757607" vertical-offset="0" max-vertical-offset="953">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.55089194" vertical-offset="0" max-vertical-offset="953">
+          <caret line="35" column="132" selection-start-line="35" selection-start-column="132" selection-end-line="35" selection-end-column="132" />
           <folding />
         </state>
       </provider>

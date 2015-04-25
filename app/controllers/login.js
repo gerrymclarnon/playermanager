@@ -19,9 +19,9 @@ export default Ember.Controller.extend({
             });
         },
 
-        loginFacebook: function(username, password) {
+        login3rdParty: function(provider) {
             var controller = this;
-            this.firebase.authWithOAuthPopup("facebook", function (error, authData) {
+            this.firebase.authWithOAuthPopup(provider, function (error, authData) {
                 if (error) {
                     console.log("Login Failed!", error);
                     controller.set('errorMessage', error.message);
