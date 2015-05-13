@@ -69,3 +69,109 @@ body {
 .inc {
   cursor: pointer;
 }
+
+// top navigation and title bar
+.navbar-fixed-top, .fixed {
+  position: fixed;
+}
+
+$capitaDarkBlue: rgb(0,91,130);
+$capitaMidBlue: rgb(61,183,228);
+$capitaLightBlue: rgb(161,198,207);
+$capitaDarkGrey: rgb(116,118,120);
+$capitaLightGrey: rgb(199,194,186);
+$capitaLightOrange: rgb(240,171,0);
+$capitaLightGreen: rgb(190,214,0);
+$capitaDarkGreen: rgb(0,133,102);
+$capitaRed: rgb(152,50,34);
+$white: rgb(255,255,255);
+
+$navBarTop: $capitaMidBlue;
+$navBarBottom: $capitaDarkBlue;
+
+$colourAdjust: 10%;
+
+@mixin transition($time: .3s) {
+  -webkit-transition: background $time ease;
+  -moz-transition: background $time ease;
+  -o-transition: background $time ease;
+  transition: background $time ease;
+}
+
+.navbar.navbar-inverse {
+  background-color: $navBarBottom;
+  border-bottom: 1px solid darken($navBarBottom, $colourAdjust);
+  color: white;
+
+  .brand {
+    color: white;
+    margin-left: -5px;
+  }
+
+  .navbar-inner {
+    background-color: $navBarTop;
+    background-image: none !important;
+    border-color: darken($navBarTop, $colourAdjust);
+  }
+
+  &#main-menu .nav {
+    width: 100%;
+
+    li.pull-right {
+      float: right !important;
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+
+    input[type=text] {
+      background-color: white;
+      border-color: $capitaMidBlue;
+    }
+
+  }
+
+  // title bar functional elements
+  ul.nav>li {
+    &>a, &>span {
+      color: white !important;
+      display: inline-block;
+      @include transition;
+//      @include cursor_pointer;
+
+      &:hover, &.active {
+        background-color: $navBarTop;
+      }
+
+      &.user-info {
+        padding-top: 12px;
+      }
+
+      &.logout {
+        color: white;
+        padding-left: 10px;
+      }
+
+      a, span {
+  //      border:
+  //        left: 1px solid darken($navBarTop, $colourAdjust);
+  //        right: 1px solid darken($navBarTop, $colourAdjust);
+
+        padding: 12px 15px;
+  //      @include transition;
+      }
+
+
+      &:hover {
+        background-color: lighten($navBarBottom, $colourAdjust);
+      }
+
+      &.active a {
+        background-color: $navBarTop;
+      }
+    }
+  }
+}
+
+
+
+
