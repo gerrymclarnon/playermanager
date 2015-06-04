@@ -1,10 +1,11 @@
 {{partial "header"}}
 
-<section class="container-fluid">
-    <h1>total: {{content.length}}</h1>
-    <ul class="table-view">
-      {{#each model as |player|}}
-          {{player-summary player=player selectPlayer="selectPlayer" selectedPlayer=selectedPlayer}}
-      {{/each}}
-    </ul>
-</section>
+<div class="content">
+    <div class="card">
+        <ul class="table-view">
+          {{#each model as |player|}}
+              {{player-summary player=player selectPlayer="selectPlayer" selectedPlayer=selectedPlayer}}
+          {{/each}}
+        </ul>
+    </div>
+</div>
