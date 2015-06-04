@@ -4,7 +4,15 @@
     <div class="card">
         <ul class="table-view">
           {{#each model as |player|}}
-              {{player-summary player=player selectPlayer="selectPlayer" selectedPlayer=selectedPlayer}}
+            <li class="table-view-cell media">
+                {{#link-to "player" player class="navigate-right"}}
+                  <img class="media-object pull-left" src="http://placehold.it/42x42">
+                  <div class="media-body">
+                    {{player.firstName}}
+                    <p>{{player.lastName}}</p>
+                  </div>
+                {{/link-to}}
+            </li>
           {{/each}}
         </ul>
     </div>
