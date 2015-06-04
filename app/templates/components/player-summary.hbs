@@ -1,6 +1,10 @@
-<li class="table-view-cell">
+<li class="table-view-cell media">
     {{#link-to "player" player class="navigate-right"}}
-        <span class="name">{{player.firstName}}</span>
+      <img class="media-object pull-left" src="http://placehold.it/42x42">
+      <div class="media-body">
+        {{player.firstName}}
+        <p>{{player.lastName}}</p>
+      </div>
     {{/link-to}}
 </li>
 
