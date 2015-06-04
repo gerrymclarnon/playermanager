@@ -2,18 +2,9 @@
 
 <section class="container-fluid">
     <h1>total: {{content.length}}</h1>
-    <div class="leaderboard">
+    <ul class="table-view">
       {{#each model as |player|}}
           {{player-summary player=player selectPlayer="selectPlayer" selectedPlayer=selectedPlayer}}
       {{/each}}
-    </div>
-    <div class="details">
-    {{#if selectedPlayer}}
-      {{render 'player/edit' selectedPlayer}}
-    {{else}}
-      {{render 'player/new'}}
-    {{/if}}
-    </div>
+    </ul>
 </section>
-
-{{partial "footer"}}

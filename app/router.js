@@ -11,7 +11,9 @@ Router.map(function() {
   });
 
   this.route("login");
-  this.route("players");
+    this.resource('players', { path: '/players' }, function() {
+        this.route('player', { path: '/:id' });
+    });
 });
 
 export default Router;

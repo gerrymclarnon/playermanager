@@ -1,25 +1,6 @@
 <!-- headerbar and logo -->
-<header class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-inner">
-        <span class="brand"><i class="fa fa-book"></i>playermanager</span>
-
-        {{#unless view.hideMenu}}
-            <!-- Navigation links starts here -->
-            <ul class="nav pull-right">
-                <!-- Main menu -->
-                <li class="user-info"><strong>{{controllers.login.userEmail}}</strong></li>
-                <li class="logout"><a href="#" alt="Logout"><i class="fa fa-power-off"></i> Log out</a></li>
-            </ul>
-        {{/unless}}
-    </div>
-
-    {{#unless view.hideMenu}}
-    <div id="main-menu">
-        <ul class="nav">
-
-        </ul>
-    </div>
-    {{/unless}}
-  </div>
+<header class="bar bar-nav">
+  <a class="icon icon-left-nav pull-left"></a>
+  <a class="icon icon-compose pull-right"></a>
+  <h1 class="title">playermanager</h1>
 </header>
