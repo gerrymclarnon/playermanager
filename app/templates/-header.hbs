@@ -1,5 +1,6 @@
 <!-- headerbar and logo -->
 <header class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
     <div class="navbar-inner">
         <span class="brand"><i class="fa fa-book"></i>playermanager</span>
 
@@ -7,7 +8,7 @@
             <!-- Navigation links starts here -->
             <ul class="nav pull-right">
                 <!-- Main menu -->
-                <li class="user-info">Welcome <strong>TBD</strong></li>
+                <li class="user-info"><strong>{{controllers.login.userEmail}}</strong></li>
                 <li class="logout"><a href="#" alt="Logout"><i class="fa fa-power-off"></i> Log out</a></li>
             </ul>
         {{/unless}}
@@ -20,4 +21,5 @@
         </ul>
     </div>
     {{/unless}}
+  </div>
 </header>
