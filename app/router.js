@@ -12,7 +12,9 @@ Router.map(function() {
 
   this.route("login");
   this.resource('players', { path: '/players' });
-  this.resource('player', { path: '/players/:id' });
+  this.resource('player', { path: '/players/:id' }, function() {
+    this.route('edit');
+  });
 });
 
 export default Router;
