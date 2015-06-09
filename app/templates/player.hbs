@@ -1,4 +1,8 @@
-{{partial "header"}}
+<header class="bar bar-nav">
+    {{#link-to 'players' class="icon icon-left-nav pull-left"}}Players{{/link-to}}
+    {{#link-to 'player.edit' class="icon icon-compose pull-right"}}{{/link-to}}
+    <h1 class="title">{{model.firstName}}</h1>
+</header>
 
 <div class="content">
   <div class="card padded">
