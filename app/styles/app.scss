@@ -46,3 +46,34 @@
   from {transform:rotate(0deg);}
   to {transform:rotate(360deg);}
 }
+
+.side-menu.active {
+  z-index: 100;
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 80%;
+  height: 100%;
+}
+
+.side-menu * {
+  background: #333;
+  color: #999;
+}
+
+.side-menu .table-view, .side-menu .table-view-cell {
+  border-color: #222;
+}
+.side-menu .table-view {
+  border-top: 0;
+}
+
+.side-menu-siblings-wrapper {
+  position: relative;
+  left: 300;
+  width: 100%;
+  height: 100%;
+}

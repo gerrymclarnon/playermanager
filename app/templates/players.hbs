@@ -1,19 +1,36 @@
-{{partial "header"}}
-
-<div class="content">
-    <div class="card">
-        <ul class="table-view">
-          {{#each model as |player|}}
-            <li class="table-view-cell media">
-                {{#link-to "player" player class="navigate-right"}}
-                  <img class="media-object pull-left" {{bind-attr src=player.avatar}}>
-                  <div class="media-body">
-                    {{player.firstName}}
-                    <p>{{player.lastName}}</p>
-                  </div>
-                {{/link-to}}
-            </li>
-          {{/each}}
-        </ul>
-    </div>
+<div class="side-menu-siblings-wrapper inactiveSideMenu">
+      <header class="bar bar-nav">
+          <a class="icon icon-bars pull-left" {{action 'showMenu'}} ></a>
+          <a class="icon icon-plus pull-right"></a>
+          <h1 class="title">playermanager</h1>
+      </header>
+      <div class="content">
+            <div class="content-padded">
+                <div class="card">
+                    <ul class="table-view">
+                      {{#each model as |player|}}
+                        <li class="table-view-cell media">
+                            {{#link-to "player" player class="navigate-right"}}
+                              <img class="media-object pull-left" {{bind-attr src=player.avatar}}>
+                              <div class="media-body">
+                                {{player.firstName}}
+                                <p>{{player.lastName}}</p>
+                              </div>
+                            {{/link-to}}
+                        </li>
+                      {{/each}}
+                    </ul>
+                </div>
+            </div>
+      </div>
 </div>
+
+<div id="mySideMenuExample" class="side-menu {{if showMenu 'active'}}">
+      <div class="content">
+        <ul class="table-view">
+          <li class="table-view-cell">Item 1</li>
+          <li class="table-view-cell">Item 2 <span class="badge">4</span></li>
+          <li class="table-view-cell">Item 3</li>
+        </ul>
+      </div>
+    </div>

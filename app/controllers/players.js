@@ -4,8 +4,12 @@ export default Ember.Controller.extend({
     needs: ['login'],
 
     selectedPlayer: null,
+    showMenu: false,
 
     actions: {
+        showMenu: function(player) {
+            this.set('showMenu', !this.get('showMenu'));
+        },
         selectPlayer: function(player) {
             this.set('selectedPlayer', player);
         },
