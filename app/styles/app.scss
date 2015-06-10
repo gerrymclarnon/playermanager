@@ -1,10 +1,28 @@
 @import "vendor/ratchet/sass/ratchet";
 
 .content {
+  position: relative;
   background-color: #efeff4;
   &.has-footer {
     padding-bottom: 45px;
   }
+}
+
+.side-menu-wrapper {
+  position: relative;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.side-menu-wrapper.moved {
+  left: 80%;
+}
+
+.bar {
+  position: relative;
 }
 
 .bar-nav {
@@ -48,17 +66,23 @@
 }
 
 .side-menu.active {
-  z-index: 20;
-  display: block;
+  left: 0;
 }
 
 .side-menu {
   position: fixed;
+  background: #333;
+  color: #999;
+  left: -80%;
   top: 0;
   width: 80%;
   height: 100%;
-  z-index: -20;
-  display: none;
+  z-index: 20;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .side-menu * {
@@ -72,16 +96,4 @@
 
 .side-menu .table-view {
   border-top: 0;
-}
-
-.side-menu-siblings-wrapper {
-  position: relative;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  transition: all 0.3s;
 }
