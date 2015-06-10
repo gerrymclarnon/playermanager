@@ -20,7 +20,7 @@
                 Matches
             </div>
           </li>
-          <li class="table-view-cell">
+          <li class="table-view-cell" {{action 'showSquad'}}>
             <span class="media-object pull-left icon icon-person"></span>
             <div class="media-body">
                 Squad
@@ -38,13 +38,11 @@
                 Share
             </div>
           </li>
-          <li class="table-view-cell">
-            {{#link-to "login"}}
-                <span class="media-object pull-left icon icon-close"></span>
-                <div class="media-body">
-                    Logout
-                </div>
-            {{/link-to}}
+          <li class="table-view-cell" {{action 'logout'}}>
+            <span class="media-object pull-left icon icon-close"></span>
+            <div class="media-body">
+                Logout
+            </div>
           </li>
         </ul>
       </div>

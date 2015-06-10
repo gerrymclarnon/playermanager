@@ -1,6 +1,12 @@
 <header class="bar bar-nav">
-    {{#link-to 'players' class="icon icon-left-nav pull-left"}}Players{{/link-to}}
-    {{#link-to 'player.edit' class="icon icon-compose pull-right"}}{{/link-to}}
+  {{#link-to 'players' class="btn btn-link btn-nav pull-left"}}
+    <span class="icon icon-left-nav"></span>
+    Squad
+  {{/link-to}}
+  <button class="btn btn-link btn-nav pull-right">
+    Edit
+    <span class="icon icon-edit"></span>
+  </button>
     <h1 class="title">{{model.firstName}}</h1>
 </header>
 
