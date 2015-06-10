@@ -1,7 +1,11 @@
 @import "vendor/ratchet/sass/ratchet";
 
-.main-bar {
-  position: relative;
+.bar.moved {
+  left: 80%;
+}
+
+.bar {
+  width: 100%;
 }
 
 .bar-nav {
