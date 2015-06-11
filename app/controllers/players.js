@@ -7,7 +7,7 @@ export default Ember.Controller.extend({
     showMenu: false,
 
     actions: {
-        showMenu: function(player) {
+        showMenu: function() {
             this.set('showMenu', !this.get('showMenu'));
         },
         selectPlayer: function(player) {
