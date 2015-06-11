@@ -17,15 +17,15 @@
   background-color: #f7f7f7;
 }
 
-.content-scroll {
-  position: relative; // scrolling doesn't work
-}
-
 .content {
   background-color: #efeff4;
   &.has-footer {
     padding-bottom: 45px;
   }
+}
+
+.content > .table-view:first-child {
+  margin-top: 0;
 }
 
 .table-view.has-header {
@@ -110,4 +110,16 @@
 @keyframes spin {
   from {transform:rotate(0deg);}
   to {transform:rotate(360deg);}
+}
+
+.liquid-container {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+.liquid-child {
+  height: 100%;
 }

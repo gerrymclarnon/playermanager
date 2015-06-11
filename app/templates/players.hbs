@@ -48,27 +48,25 @@
       </div>
     </div>
     <header class="bar bar-nav {{if showMenu 'moved'}}">
-      <a class="icon icon-bars pull-left" {{action 'showMenu'}} ></a>
-      <a class="icon icon-plus pull-right"></a>
-      <h1 class="title">playermanager</h1>
+      <a class="icon icon-bars pull-left" {{action 'showMenu'}}></a>
+      <a class="icon icon-plus pull-right" {{action 'addPlayer'}}></a>
+      <h1 class="title">SQUAD</h1>
     </header>
     <div class="content">
-        <div class="content-padded">
-            <div class="card">
-                <ul class="table-view">
-                  {{#each model as |player|}}
-                    <li class="table-view-cell media">
-                        {{#link-to "player" player class="navigate-right"}}
-                          <img class="media-object pull-left" {{bind-attr src=player.avatar}}>
-                          <div class="media-body">
-                            {{player.firstName}}
-                            <p>{{player.lastName}}</p>
-                          </div>
-                        {{/link-to}}
-                    </li>
-                  {{/each}}
-                </ul>
-            </div>
-        </div>
+        <ul class="table-view">
+          {{#each model as |player|}}
+            <li class="table-view-cell media">
+                {{#link-to "player" player class="navigate-right"}}
+                  <img class="media-object pull-left" src="{{player.avatar}}">
+                  <div class="media-body">
+                    {{player.firstName}}
+                    <p>{{player.lastName}}</p>
+                  </div>
+                {{/link-to}}
+            </li>
+          {{/each}}
+        </ul>
     </div>
 </div>
+
+{{outlet}}
