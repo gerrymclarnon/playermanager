@@ -1,9 +1,9 @@
 <header class="bar bar-nav">
-  {{#link-to 'players' class="btn btn-link btn-nav pull-left"}}
+  {{#link-to "players" class="btn btn-link btn-nav pull-left"}}
     <span class="icon icon-left-nav"></span>
     Squad
   {{/link-to}}
-  {{#link-to 'player.edit' model class="btn btn-link btn-nav pull-right"}}
+  {{#link-to "player.edit" model class="btn btn-link btn-nav pull-right"}}
     Edit
     <span class="icon icon-edit"></span>
   {{/link-to}}
@@ -15,3 +15,5 @@
     <p>{{model.lastName}}</p>
   </div>
 </div>
+
+{{outlet}}

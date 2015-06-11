@@ -10,7 +10,11 @@ export default Ember.Route.extend({
             this.get('controller').send('showMenu');
             this.transitionTo('players');
         },
-        
+
+        addPlayer: function () {
+            this.transitionTo('players.new');
+        },
+
         logout: function () {
             this.transitionTo('login');
         }

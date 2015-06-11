@@ -11,8 +11,11 @@ Router.map(function() {
   });
 
   this.route("login");
-  this.resource('players', { path: '/players' });
-  this.resource('player', { path: '/players/:id' }, function() {
+    
+  this.resource('players', { path: '/players' }, function() {
+      this.route("new", { path: "/new" });
+  });
+  this.resource('player', { path: '/players/:player_id' }, function() {
     this.route('edit', { path: '/edit' });
   });
 });
