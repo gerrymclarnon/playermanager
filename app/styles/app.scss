@@ -17,15 +17,15 @@
   background-color: #f7f7f7;
 }
 
-.content-scroll {
-  position: relative; // scrolling doesn't work
-}
-
 .content {
   background-color: #efeff4;
   &.has-footer {
     padding-bottom: 45px;
   }
+}
+
+.content > .table-view:first-child {
+  margin-top: 0;
 }
 
 .table-view.has-header {
