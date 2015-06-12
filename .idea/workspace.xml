@@ -129,8 +129,8 @@
       <file leaf-file-name="edit.hbs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/player/edit.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65562916" vertical-offset="0" max-vertical-offset="604">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.8344371" vertical-offset="0" max-vertical-offset="630">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -779,7 +779,7 @@
       <workItem from="1433455792149" duration="647000" />
       <workItem from="1433587752369" duration="763000" />
       <workItem from="1433858294794" duration="49618000" />
-      <workItem from="1434101145988" duration="5763000" />
+      <workItem from="1434101145988" duration="6048000" />
     </task>
     <task id="LOCAL-00001" summary="Updated deprecated transitionTo method calls to transitionToRoute.">
       <created>1427893940690</created>
@@ -941,11 +941,15 @@
       <created>1434108435358</created>
       <updated>1434108435358</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Updated style of edit.">
+      <created>1434108948432</created>
+      <updated>1434108948432</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138024000" />
+    <option name="totallyTimeSpent" value="138309000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1017,7 +1021,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Injected Firebase connection into ApplicationAdapter" />
     <MESSAGE value="Updated models." />
     <MESSAGE value="Ignoring .idea files." />
     <MESSAGE value="Added Ratchet" />
@@ -1042,7 +1045,8 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="Sort out the .gitignore&#10;" />
     <MESSAGE value="Added search text box; fixed dodgy route." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added search text box; fixed dodgy route." />
+    <MESSAGE value="Updated style of edit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated style of edit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1428,8 +1432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/player/edit.hbs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65562916" vertical-offset="0" max-vertical-offset="604">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.8344371" vertical-offset="0" max-vertical-offset="630">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
