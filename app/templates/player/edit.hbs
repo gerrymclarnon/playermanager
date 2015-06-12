@@ -11,14 +11,16 @@
 
 <div class="content">
   <div class="card padded">
-    <div class="input">
-        <label for="name">name</label>
+    <form class="input-group">
+      <div class="input-row">
+        <label>name</label>
         {{input name="name" value=model.firstName}}
-    </div>
-    <div class="input">
-        <label for="lastName">email</label>
+      </div>
+      <div class="input-row">
+        <label>email</label>
         {{input type="email" name="lastName" value=model.lastName}}
-    </div>
-    <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>
+      </div>
+      <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>
+    </form>
   </div>
 </div>
