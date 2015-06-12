@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0feceb1-a268-4315-abcd-3ccb08a837dc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/player/edit.hbs" afterPath="$PROJECT_DIR$/app/templates/player/edit.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/player/edit.js" afterPath="$PROJECT_DIR$/app/controllers/player/edit.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/players/new.hbs" afterPath="$PROJECT_DIR$/app/templates/players/new.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/player.hbs" afterPath="$PROJECT_DIR$/app/templates/player.hbs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="playermanager.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -138,11 +136,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edit.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/player/edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17880794" vertical-offset="0" max-vertical-offset="604">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
               <caret line="6" column="47" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.14900662" vertical-offset="0" max-vertical-offset="604">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -180,7 +188,6 @@
         <option value="$PROJECT_DIR$/app/templates/components/player-summary.hbs" />
         <option value="$PROJECT_DIR$/app/templates/loading.hbs" />
         <option value="$PROJECT_DIR$/app/templates/-header.hbs" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/controllers/player.js" />
         <option value="$PROJECT_DIR$/Brocfile.js" />
         <option value="$PROJECT_DIR$/app/controllers/players.js" />
@@ -199,6 +206,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/app/templates/players/new.hbs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -713,7 +721,7 @@
       <workItem from="1433253161614" duration="19472000" />
       <workItem from="1433455792149" duration="647000" />
       <workItem from="1433587752369" duration="763000" />
-      <workItem from="1433858294794" duration="49387000" />
+      <workItem from="1433858294794" duration="49618000" />
     </task>
     <task id="LOCAL-00001" summary="Updated deprecated transitionTo method calls to transitionToRoute.">
       <created>1427893940690</created>
@@ -859,11 +867,23 @@
       <created>1434098029087</created>
       <updated>1434098029087</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1434098330957</created>
+      <updated>1434098330957</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1434098397288</created>
+      <updated>1434098397288</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Sort out the .gitignore&#10;">
+      <created>1434098539625</created>
+      <updated>1434098539625</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132030000" />
+    <option name="totallyTimeSpent" value="132261000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -935,7 +955,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Some tests!" />
     <MESSAGE value="Updated to SASS." />
     <MESSAGE value="Injected Firebase connection into ApplicationAdapter" />
     <MESSAGE value="Updated models." />
@@ -945,7 +964,6 @@
     <MESSAGE value="Added divider lines to table view" />
     <MESSAGE value="Added dynamic player model." />
     <MESSAGE value="Warming up..." />
-    <MESSAGE value="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="Slide in menu transitions fixed &#10;" />
     <MESSAGE value="Added side menu items and logout" />
     <MESSAGE value="Fixed scrolling in content" />
@@ -960,7 +978,9 @@
     <MESSAGE value="Re-instated upgraded ember &amp; ember-data" />
     <MESSAGE value="Added navbar to players/new" />
     <MESSAGE value="Upgraded ember &amp; ember-data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgraded ember &amp; ember-data" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
+    <MESSAGE value="Sort out the .gitignore&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort out the .gitignore&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1115,25 +1135,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="20016">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1434098143005" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434098143005" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434098143005" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434098143005" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434098143005" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1434098143005" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434098516549" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434098516549" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434098516549" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434098516549" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434098516549" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1434098516549" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1366,8 +1378,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/player/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17880794" vertical-offset="0" max-vertical-offset="604">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="432">
           <caret line="6" column="47" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14900662" vertical-offset="0" max-vertical-offset="604">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>
