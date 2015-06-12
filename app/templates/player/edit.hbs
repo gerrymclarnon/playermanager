@@ -12,11 +12,11 @@
 <div class="content">
   <div class="card padded">
     <div class="input">
-        <label for="name">name:</label>
+        <label for="name">name</label>
         {{input name="name" value=model.firstName}}
     </div>
     <div class="input">
-        <label for="lastName">email:</label>
+        <label for="lastName">email</label>
         {{input type="email" name="lastName" value=model.lastName}}
     </div>
     <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>

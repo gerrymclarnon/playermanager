@@ -52,6 +52,11 @@
       <a class="icon icon-plus pull-right" {{action 'addPlayer'}}></a>
       <h1 class="title">SQUAD</h1>
     </header>
+    <div class="bar bar-standard bar-header-secondary">
+      <form>
+        <input type="search" placeholder="Search">
+      </form>
+    </div>
     <div class="content">
         <ul class="table-view">
           {{#each model as |player|}}
