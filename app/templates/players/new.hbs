@@ -1,3 +1,14 @@
+<header class="bar bar-nav">
+  {{#link-to "players" class="btn btn-link btn-nav pull-left"}}
+    <span class="icon icon-left-nav"></span>
+    Cancel
+  {{/link-to}}
+  {{#link-to "player.edit" model class="btn btn-link btn-nav pull-right"}}
+    Save
+    <span class="icon icon-check"></span>
+  {{/link-to}}
+</header>
+
 <div class="content">
   <div class="card padded">
     <form {{action "createUser" on="submit"}}>
