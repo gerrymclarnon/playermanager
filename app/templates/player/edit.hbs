@@ -1,12 +1,12 @@
 <header class="bar bar-nav">
-  {{#link-to 'player' class="btn btn-link btn-nav pull-left"}}
-    <span class="icon icon-left-nav"></span>
-    Cancel
-  {{/link-to}}
-  {{#link-to 'player' model class="btn btn-link btn-nav pull-right"}}
-    Save
-    <span class="icon icon-edit"></span>
-  {{/link-to}}
+    <button {{action 'cancel' this}} class="btn btn-link btn-nav pull-left">
+        <span class="icon icon-left-nav"></span>
+        Cancel
+    </button>
+    <button {{action 'update' this}} class="btn btn-link btn-nav pull-right">
+        Save
+        <span class="icon icon-edit"></span>
+    </button>
 </header>
 
 <div class="content">
@@ -19,8 +19,6 @@
         <label for="lastName">email:</label>
         {{input type="email" name="lastName" value=model.lastName}}
     </div>
-    <button {{action 'update' this}}>Update</button>
-    <button {{action 'delete' this}}>Delete</button>
-    <button {{action 'cancel' this}}>Cancel</button>
+    <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>
   </div>
 </div>
