@@ -1,0 +1,13 @@
+<ul class="table-view">
+  {{#each model as |player|}}
+    <li class="table-view-cell media">
+        {{#link-to "player" player class="navigate-right"}}
+          <img class="media-object pull-left" src="{{player.avatar}}">
+          <div class="media-body">
+            {{player.firstName}}
+            <p>{{player.lastName}}</p>
+          </div>
+        {{/link-to}}
+    </li>
+  {{/each}}
+</ul>

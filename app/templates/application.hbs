@@ -1,1 +1,65 @@
-{{outlet}}
+<div class="side-menu-wrapper {{if showMenu 'show'}}">
+    <div class="side-menu {{if showMenu 'active'}}">
+      <div class="content">
+        <ul class="table-view">
+          <li class="table-view-cell">
+            <span class="media-object pull-left icon icon-home"></span>
+            <div class="media-body">
+                Home
+            </div>
+          </li>
+          <li class="table-view-cell">
+            <span class="media-object pull-left icon icon-gear"></span>
+            <div class="media-body">
+                Settings
+            </div>
+          </li>
+          <li class="table-view-cell">
+            <span class="media-object pull-left icon icon-play"></span>
+            <div class="media-body">
+                Matches
+            </div>
+          </li>
+          <li class="table-view-cell" {{action 'showSquad'}}>
+            <span class="media-object pull-left icon icon-person"></span>
+            <div class="media-body">
+                Players
+            </div>
+          </li>
+          <li class="table-view-cell">
+            <span class="media-object pull-left icon icon-info"></span>
+            <div class="media-body">
+                News
+            </div>
+          </li>
+          <li class="table-view-cell">
+            <span class="media-object pull-left icon icon-share"></span>
+            <div class="media-body">
+                Share
+            </div>
+          </li>
+          <li class="table-view-cell" {{action 'logout'}}>
+            <span class="media-object pull-left icon icon-close"></span>
+            <div class="media-body">
+                Logout
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <header class="bar bar-nav {{if showMenu 'show'}}">
+        {{outlet 'header'}}
+    </header>
+    <div class="bar bar-standard bar-header-secondary {{if showSecondaryHeader 'show'}}">
+        {{outlet 'secondary-header'}}
+    </div>
+    <div class="content">
+        {{outlet 'content'}}
+    </div>
+    <div class="bar bar-standard bar-footer-secondary">
+        {{outlet 'secondary-footer'}}
+    </div>
+    <div class="bar-standard bar-footer">
+        {{outlet 'footer'}}
+    </div>
+</div>

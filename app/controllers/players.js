@@ -5,6 +5,7 @@ export default Ember.Controller.extend({
 
     selectedPlayer: null,
     showMenu: false,
+    showSecondaryHeader: true,
 
     actions: {
         showMenu: function() {
