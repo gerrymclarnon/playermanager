@@ -1,0 +1,13 @@
+<div class="card padded">
+<form {{action "createUser" on="submit"}}>
+  <div class="input">
+    <label for="firstName">name</label>
+    {{input name="firstName" value=controller.firstName}}
+  </div>
+  <div class="input">
+    <label for="lastName">email</label>
+    {{input type="email" name="lastName" value=controller.lastName}}
+  </div>
+</form>
+</div>
+

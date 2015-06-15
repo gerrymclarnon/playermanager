@@ -1,6 +1,11 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+    renderTemplate: function(controller) {
+        this.render('players/new/navbar', {outlet: 'header', controller: controller});
+        this.render('players/new/index', {outlet: 'content', controller: controller});
+    },
+    
     actions: {
         cancel: function() {
             this.controller.setProperties({
