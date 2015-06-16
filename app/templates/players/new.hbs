@@ -1,16 +1,25 @@
+<header class="bar bar-nav">
+    <button {{action 'cancel'}} class="btn btn-link btn-nav pull-left">
+        <span class="icon icon-left-nav"></span>
+        Cancel
+    </button>
+    <button {{action 'create'}} class="btn btn-link btn-nav pull-right">
+        Save
+        <span class="icon icon-check"></span>
+    </button>
+    <h1 class="title">Add Player</h1>
+</header>
+
 <div class="content">
   <div class="card padded">
     <form {{action "createUser" on="submit"}}>
       <div class="input">
-        <label for="firstName">name:</label>
+        <label for="firstName">name</label>
         {{input name="firstName" value=controller.firstName}}
       </div>
       <div class="input">
-        <label for="lastName">email:</label>
+        <label for="lastName">email</label>
         {{input type="email" name="lastName" value=controller.lastName}}
-      </div>
-      <div class="actions">
-        <button type="submit">Add User</button>
       </div>
     </form>
   </div>

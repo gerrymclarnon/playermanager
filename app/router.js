@@ -13,10 +13,10 @@ Router.map(function() {
   this.route("login");
     
   this.resource('players', { path: '/players' }, function() {
+      this.resource('player', { path: '/:player_id' }, function() {
+          this.route('edit', { path: '/edit' });
+      });
       this.route("new", { path: "/new" });
-  });
-  this.resource('player', { path: '/players/:player_id' }, function() {
-    this.route('edit', { path: '/edit' });
   });
 });
 

@@ -1,6 +1,6 @@
 @import "vendor/ratchet/sass/ratchet";
 
-.bar.moved {
+.bar.show {
   left: 80%;
 }
 
@@ -15,6 +15,22 @@
 
 .bar-nav {
   background-color: #f7f7f7;
+}
+
+.bar.bar-header-secondary.show {
+  display: block;
+}
+
+.bar.bar-header-secondary {
+  display: none;
+}
+
+.bar.bar-footer-secondary.show {
+  display: block;
+}
+
+.bar.bar-footer-secondary {
+  display: none;
 }
 
 .content {
