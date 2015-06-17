@@ -1,15 +1,15 @@
 import Ember from 'ember';
 
 export default Ember.Controller.extend({
-    needs: ['login'],
+    needs: ['login', 'application'],
 
     selectedPlayer: null,
-    showMenu: false,
     showSecondaryHeader: true,
 
     actions: {
         showMenu: function() {
-            this.set('showMenu', !this.get('showMenu'));
+            var appController = this.get('controllers.application');
+            appController.set('showMenu', !appController.get('showMenu'));
         },
         selectPlayer: function(player) {
             this.set('selectedPlayer', player);
