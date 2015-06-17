@@ -18,4 +18,5 @@ node_modules
 bower_components
 tmp
 dist
-/npm-debug.log
+app/npm-debug.log
+public
