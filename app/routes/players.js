@@ -6,14 +6,15 @@ export default Ember.Route.extend({
     },
 
     renderTemplate: function(controller) {
-        this.render('players/navbar', {outlet: 'header', controller: controller});
-        this.render('players/search-bar', {outlet: 'secondary-header', controller: controller});
-        this.render('players/index', {outlet: 'content', controller: controller});
+//        controller.get('controllers.application').set('showSecondaryHeader', true);
+        this.render('players/navbar', {outlet: 'header'});
+        this.render('players/search-bar', {outlet: 'secondary-header', controller: controller.get('controllers.application')});
+        this.render('players/index', {outlet: 'content'});
     },
     
     actions: {
         showSquad: function () {
-            this.get('controller').send('showMenu');
+            this.get('application').send('showMenu');
             this.transitionTo('players');
         },
 

@@ -1,6 +1,6 @@
 @import "vendor/ratchet/sass/ratchet";
 
-.bar.show {
+.bar.showMenu {
   left: 80%;
 }
 
@@ -17,6 +17,10 @@
   background-color: #f7f7f7;
 }
 
+.bar.bar-header-secondary.showMenu {
+  left: 80%;
+}
+
 .bar.bar-header-secondary.show {
   display: block;
 }
@@ -31,6 +35,10 @@
 
 .bar.bar-footer-secondary {
   display: none;
+}
+
+.content.showMenu {
+  left: 80%;
 }
 
 .content {
@@ -71,7 +79,7 @@
   transition: all 0.3s;
 }
 
-.side-menu-wrapper.moved {
+.side-menu-wrapper.show {
   left: 80%;
 }
 

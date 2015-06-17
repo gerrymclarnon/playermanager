@@ -4,7 +4,6 @@ export default Ember.Controller.extend({
     needs: ['login', 'application'],
 
     selectedPlayer: null,
-    showSecondaryHeader: true,
 
     actions: {
         showMenu: function() {
