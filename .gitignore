@@ -3,8 +3,7 @@ target
 /.project
 /.setting
 out
-.idea
-*.iml
+.idea/workspace.xml
 dependency-reduced-pom.xml
 /.checkstyle
 /.settings

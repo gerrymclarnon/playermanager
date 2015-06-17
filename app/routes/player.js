@@ -6,7 +6,6 @@ export default Ember.Route.extend({
     },
 
     renderTemplate: function(controller) {
-//        controller.get('controllers.application').set('showSecondaryHeader', false);
         this.render('player/navbar', {outlet: 'header'});
         this.render('player/index', {outlet: 'content'});
     }
