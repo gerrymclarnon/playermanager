@@ -1,4 +1,4 @@
-<div class="side-menu-wrapper {{if showMenu 'show'}}">
+<div class="side-menu-wrapper {{if showMenu 'showMenu'}}">
     <div class="side-menu {{if showMenu 'active'}}">
       <div class="content">
         <ul class="table-view">
@@ -47,13 +47,11 @@
         </ul>
       </div>
     </div>
-    <header class="bar bar-nav {{if showMenu 'show'}}">
+    <header class="bar bar-nav {{if showMenu 'showMenu'}}">
         {{outlet 'header'}}
     </header>
-    <div class="bar bar-standard bar-header-secondary {{if showSecondaryHeader 'show'}}">
-        {{outlet 'secondary-header'}}
-    </div>
-    <div class="content">
+    {{outlet 'secondary-header'}}
+    <div class="content {{if showMenu 'showMenu'}}">
         {{outlet 'content'}}
     </div>
     <div class="bar bar-standard bar-footer-secondary">
