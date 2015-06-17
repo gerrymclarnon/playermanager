@@ -37,6 +37,14 @@
   display: none;
 }
 
+.bar.bar-footer.show {
+  display: block;
+}
+
+.bar.bar-footer {
+  display: none;
+}
+
 .content.showMenu {
   left: 80%;
 }
