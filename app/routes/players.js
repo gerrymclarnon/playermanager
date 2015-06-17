@@ -13,7 +13,7 @@ export default Ember.Route.extend({
     
     actions: {
         showSquad: function () {
-            this.get('application').send('showMenu');
+            this.get('controller.controllers.application').send('showMenu');
             this.transitionTo('players');
         },
 
