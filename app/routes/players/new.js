@@ -6,12 +6,12 @@ export default Ember.Route.extend({
         this.render('players/new/index', {outlet: 'content', controller: controller});
     },
 
-    activate: function() {
-//        this.get('controller').set('showSecondaryHeader', false);
+    setupController: function(controller, model) {
+        this.controllerFor('players').set('showSecondaryHeader', false);
     },
-
+    
     deactivate: function() {
-//        this.get('controller').set('showSecondaryHeader', true);
+        this.controllerFor('players').set('showSecondaryHeader', true);
     },
 
     actions: {
