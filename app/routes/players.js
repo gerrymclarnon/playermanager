@@ -5,12 +5,6 @@ export default Ember.Route.extend({
         return this.store.find('player');
     },
 
-    renderTemplate: function(controller) {
-//        this.render('players/navbar', {outlet: 'header'});
-//        this.render('players/search-bar', {outlet: 'secondary-header', controller: controller});
-//        this.render('players/index', {outlet: 'content'});
-    },
-    
     actions: {
         showSquad: function () {
             this.get('controller.controllers.application').send('showMenu');

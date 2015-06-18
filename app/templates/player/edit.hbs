@@ -1,0 +1,29 @@
+{{#nav-bar showMenu=controllers.application.showMenu}}
+  <button {{action 'cancel' this}} class="btn btn-link btn-nav pull-left">
+    <span class="icon icon-left-nav"></span>
+    Cancel
+  </button>
+  <button {{action 'update' this}} class="btn btn-link btn-nav pull-right">
+    Save
+    <span class="icon icon-edit"></span>
+  </button>
+{{/nav-bar}}
+
+<div class="content {{if showMenu 'showMenu'}}">
+  <div class="card padded">
+    <form class="input-group">
+      <div class="input-row">
+        <label>name</label>
+          {{input name="name" value=model.firstName}}
+      </div>
+      <div class="input-row">
+        <label>email</label>
+          {{input type="email" name="lastName" value=model.lastName}}
+      </div>
+    </form>
+  </div>
+</div>
+
+{{#footer-bar showMenu=controllers.application.showMenu}}
+  <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>
+{{/footer-bar}}

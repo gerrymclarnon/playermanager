@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
     renderTemplate: function(controller) {
-        this.render('players/new/index', {into: 'application', controller: controller});
+        this.render('players/new', {into: 'application', controller: controller});
     },
 //
 //    setupController: function(controller, model) {
@@ -27,7 +27,7 @@ export default Ember.Route.extend({
                 firstName: this.controller.get('firstName'),
                 lastName: this.controller.get('lastName')
             }).save();
-            
+
             this.transitionTo('players');
 
             this.controller.setProperties({

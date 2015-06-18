@@ -1,27 +1,28 @@
 {{#nav-bar showMenu=controllers.application.showMenu}}
-    <a class="icon icon-bars pull-left" {{action 'showMenu'}}></a>
-    <a class="icon icon-plus pull-right" {{action 'addPlayer'}}></a>
-    <h1 class="title">Players</h1>
+  <a class="icon icon-bars pull-left" {{action 'showMenu'}}></a>
+  <a class="icon icon-plus pull-right" {{action 'addPlayer'}}></a>
+  <h1 class="title">Players</h1>
 {{/nav-bar}}
 
 {{#secondary-header-bar showMenu=controllers.application.showMenu}}
-    <form>
-        <input type="search" placeholder="Search">
-    </form>
+  <form>
+    <input type="search" placeholder="Search">
+  </form>
 {{/secondary-header-bar}}
 
 <div class="content {{if showMenu 'showMenu'}}">
-    <ul class="table-view">
+  <ul class="table-view">
       {{#each model as |player|}}
         <li class="table-view-cell media">
             {{#link-to "player" player class="navigate-right"}}
               <img class="media-object pull-left" src="{{player.avatar}}">
+
               <div class="media-body">
-                {{player.firstName}}
+                  {{player.firstName}}
                 <p>{{player.lastName}}</p>
               </div>
             {{/link-to}}
         </li>
       {{/each}}
-    </ul>
+  </ul>
 </div>

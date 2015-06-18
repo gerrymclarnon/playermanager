@@ -1,41 +1,45 @@
 <section class="container">
-    <div class="row">
-        <div class="span12">
-            <div class="logreg-page">
-                <form id="login_form" class="form-horizontal" autocomplete="off">
-                    <fieldset>
-                        <div class="form-group">
-                            <label for="username">Email address</label>
-                            {{input type="email" class="form-control" placeholder="Email" id="username" value=username}}
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            {{input type="password" class="form-control" placeholder="Password" id="password" value=password}}
-                        </div>
-
-                        {{#if errorMessage}}
-                            <div class="alert alert-error">
-                                {{errorMessage}}
-                            </div>
-                        {{/if}}
-
-                        <div class="form-group">
-                            <input type="submit" value="Login" class="btn btn-default btn-block" {{action "login" username password "home"}} />
-                        </div>
-
-                        <br />
-                        <br />
-
-                        <div class="form-group">
-                            <h4>Login with</h4>
-                            <input type="submit" value="Facebook" class="btn btn-primary bt-social" {{action "login3rdParty" "facebook"}} />
-                            <input type="submit" value="Twitter" class="btn btn-primary bt-social" {{action "login3rdParty" "twitter"}} />
-                            <input type="submit" value="Google" class="btn btn-primary bt-social" {{action "login3rdParty" "google"}} />
-                            <a href="#" class="btn btn-warning" id="btAnon">Anon</a>
-                        </div>
-                    </fieldset>
-                </form>
+  <div class="row">
+    <div class="span12">
+      <div class="logreg-page">
+        <form id="login_form" class="form-horizontal" autocomplete="off">
+          <fieldset>
+            <div class="form-group">
+              <label for="username">Email address</label>
+                {{input type="email" class="form-control" placeholder="Email" id="username" value=username}}
             </div>
-        </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+                {{input type="password" class="form-control" placeholder="Password" id="password" value=password}}
+            </div>
+
+              {{#if errorMessage}}
+                <div class="alert alert-error">
+                    {{errorMessage}}
+                </div>
+              {{/if}}
+
+            <div class="form-group">
+              <input type="submit" value="Login"
+                     class="btn btn-default btn-block" {{action "login" username password "home"}} />
+            </div>
+
+            <br/>
+            <br/>
+
+            <div class="form-group">
+              <h4>Login with</h4>
+              <input type="submit" value="Facebook"
+                     class="btn btn-primary bt-social" {{action "login3rdParty" "facebook"}} />
+              <input type="submit" value="Twitter"
+                     class="btn btn-primary bt-social" {{action "login3rdParty" "twitter"}} />
+              <input type="submit" value="Google"
+                     class="btn btn-primary bt-social" {{action "login3rdParty" "google"}} />
+              <a href="#" class="btn btn-warning" id="btAnon">Anon</a>
+            </div>
+          </fieldset>
+        </form>
+      </div>
     </div>
+  </div>
 </section>
