@@ -1,5 +1,19 @@
 export default function() {
     this.transition(
+        this.fromRoute('login'),
+        this.toRoute('loading'),
+        this.use('crossFade'),
+        this.reverse('crossFade')
+    );
+
+    this.transition(
+        this.fromRoute('loading'),
+        this.toRoute('players'),
+        this.use('crossFade'),
+        this.reverse('crossFade')
+    );
+
+    this.transition(
         this.fromRoute('players'),
         this.toRoute('player'),
         this.use('toLeft'),
