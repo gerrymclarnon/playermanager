@@ -1,10 +1,11 @@
-{{#link-to "players" class="btn btn-link btn-nav pull-left"}}
-    <span class="icon icon-left-nav"></span>
-    All Players
-{{/link-to}}
-{{#link-to "player.edit" model class="btn btn-link btn-nav pull-right"}}
-    Edit
-    <span class="icon icon-more-vertical"></span>
-{{/link-to}}
-
+{{#nav-bar showMenu=controllers.application.showMenu}}
+    {{#link-to "players" class="btn btn-link btn-nav pull-left"}}
+        <span class="icon icon-left-nav"></span>
+        All Players
+    {{/link-to}}
+    {{#link-to "player.edit" model class="btn btn-link btn-nav pull-right"}}
+        Edit
+        <span class="icon icon-more-vertical"></span>
+    {{/link-to}}
+{{/nav-bar}}
 

@@ -1,9 +1,11 @@
-<button {{action 'cancel'}} class="btn btn-link btn-nav pull-left">
-    <span class="icon icon-left-nav"></span>
-    Cancel
-</button>
-<button {{action 'create'}} class="btn btn-link btn-nav pull-right">
-    Save
-    <span class="icon icon-check"></span>
-</button>
-<h1 class="title">Add Player</h1>
+{{#nav-bar showMenu=controllers.application.showMenu}}
+    <button {{action 'cancel'}} class="btn btn-link btn-nav pull-left">
+        <span class="icon icon-left-nav"></span>
+        Cancel
+    </button>
+    <button {{action 'create'}} class="btn btn-link btn-nav pull-right">
+        Save
+        <span class="icon icon-check"></span>
+    </button>
+    <h1 class="title">Add Player</h1>
+{{/nav-bar}}

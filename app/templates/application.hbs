@@ -47,15 +47,11 @@
         </ul>
       </div>
     </div>
-    <header class="bar bar-nav {{if showMenu 'showMenu'}}">
-        {{outlet 'header'}}
-    </header>
+    {{outlet 'header'}}
     {{outlet 'secondary-header'}}
     <div class="content {{if showMenu 'showMenu'}}">
         {{outlet 'content'}}
     </div>
-    <div class="bar bar-standard bar-footer-secondary">
-        {{outlet 'secondary-footer'}}
-    </div>
+    {{outlet 'secondary-footer-bar'}}
     {{outlet 'footer'}}
 </div>
