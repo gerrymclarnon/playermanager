@@ -2,18 +2,17 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
     renderTemplate: function(controller) {
-        this.render('players/new/navbar', {outlet: 'header', controller: controller});
-        this.render('players/new/index', {outlet: 'content', controller: controller});
+        this.render('players/new/index', {into: 'application', controller: controller});
     },
-
-    setupController: function(controller, model) {
-        this.controllerFor('players').set('showSecondaryHeader', false);
-    },
-    
-    deactivate: function() {
-        this.controllerFor('players').set('showSecondaryHeader', true);
-    },
-
+//
+//    setupController: function(controller, model) {
+//        this.controllerFor('players').set('showSecondaryHeader', false);
+//    },
+//
+//    deactivate: function() {
+//        this.controllerFor('players').set('showSecondaryHeader', true);
+//    },
+//
     actions: {
         cancel: function() {
             this.controller.setProperties({

@@ -5,8 +5,8 @@ export default Ember.Route.extend({
         return this.store.find('player', params.player_id);
     },
 
-    renderTemplate: function(controller) {
-        this.render('player/navbar', {outlet: 'header', controller: controller});
-        this.render('player/index', {outlet: 'content', controller: controller});
-    }
+//    renderTemplate: function(controller) {
+//        this.render('player/navbar', {outlet: 'header', controller: controller});
+//        this.render('player/index', {outlet: 'content', controller: controller});
+//    }
 });

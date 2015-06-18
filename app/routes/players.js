@@ -6,9 +6,9 @@ export default Ember.Route.extend({
     },
 
     renderTemplate: function(controller) {
-        this.render('players/navbar', {outlet: 'header'});
-        this.render('players/search-bar', {outlet: 'secondary-header', controller: controller});
-        this.render('players/index', {outlet: 'content'});
+//        this.render('players/navbar', {outlet: 'header'});
+//        this.render('players/search-bar', {outlet: 'secondary-header', controller: controller});
+//        this.render('players/index', {outlet: 'content'});
     },
     
     actions: {
