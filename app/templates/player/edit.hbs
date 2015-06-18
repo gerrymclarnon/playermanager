@@ -9,20 +9,18 @@
   </button>
 {{/nav-bar}}
 
-<div class="content {{if showMenu 'showMenu'}}">
-  <div class="card padded">
-    <form class="input-group">
-      <div class="input-row">
-        <label>name</label>
-          {{input name="name" value=model.firstName}}
-      </div>
-      <div class="input-row">
-        <label>email</label>
-          {{input type="email" name="lastName" value=model.lastName}}
-      </div>
-    </form>
-  </div>
-</div>
+{{#main-content showMenu=controllers.application.showMenu}}
+  <form class="input-group">
+    <div class="input-row">
+      <label>name</label>
+        {{input name="name" value=model.firstName}}
+    </div>
+    <div class="input-row">
+      <label>email</label>
+        {{input type="email" name="lastName" value=model.lastName}}
+    </div>
+  </form>
+{{/main-content}}
 
 {{#footer-bar showMenu=controllers.application.showMenu}}
   <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>

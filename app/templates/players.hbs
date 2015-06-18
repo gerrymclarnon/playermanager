@@ -10,7 +10,7 @@
   </form>
 {{/secondary-header-bar}}
 
-<div class="content {{if showMenu 'showMenu'}}">
+{{#main-content showMenu=controllers.application.showMenu}}
   <ul class="table-view">
       {{#each model as |player|}}
         <li class="table-view-cell media">
@@ -25,4 +25,4 @@
         </li>
       {{/each}}
   </ul>
-</div>
+{{/main-content}}

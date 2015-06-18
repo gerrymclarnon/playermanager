@@ -9,10 +9,9 @@
     {{/link-to}}
 {{/nav-bar}}
 
-<div class="content {{if showMenu 'showMenu'}}">
-  <div class="card padded">
-    <h3>{{model.firstName}}</h3>
-
-    <p>{{model.lastName}}</p>
-  </div>
-</div>
+{{#main-content showMenu=controllers.application.showMenu}}
+  <form class="input-group">
+      {{input name="name" value=model.firstName}}
+      {{input type="email" name="lastName" value=model.lastName}}
+  </form>
+{{/main-content}}
