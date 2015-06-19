@@ -2,8 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Controller.extend({
     needs: ['application'],
-    showFooter: true,
-    
+
     actions: {
         cancel: function(player) {
             player.rollback();

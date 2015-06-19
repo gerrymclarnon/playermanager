@@ -3,7 +3,6 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
     needs: ['login', 'application'],
 
-    showSecondaryHeader: true,
     selectedPlayer: null,
 
     actions: {

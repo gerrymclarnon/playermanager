@@ -7,6 +7,20 @@ export default function() {
     );
 
     this.transition(
+        this.fromRoute(null),
+        this.toRoute('loading'),
+        this.use('crossFade'),
+        this.reverse('crossFade')
+    );
+
+    this.transition(
+        this.fromRoute(null),
+        this.toRoute('players.index'),
+        this.use('crossFade'),
+        this.reverse('crossFade')
+    );
+
+    this.transition(
         this.fromRoute('loading'),
         this.toRoute('players'),
         this.use('crossFade'),

@@ -4,15 +4,7 @@ export default Ember.Route.extend({
     renderTemplate: function(controller) {
         this.render('players/new', {into: 'application', controller: controller});
     },
-//
-//    setupController: function(controller, model) {
-//        this.controllerFor('players').set('showSecondaryHeader', false);
-//    },
-//
-//    deactivate: function() {
-//        this.controllerFor('players').set('showSecondaryHeader', true);
-//    },
-//
+
     actions: {
         cancel: function() {
             this.controller.setProperties({

@@ -5,6 +5,7 @@
 }
 
 .bar {
+  z-index: 20;
   width: 100%;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -13,36 +14,12 @@
   transition: all 0.3s;
 }
 
-.bar-nav {
-  background-color: #f7f7f7;
-}
+//.bar-nav {
+//  background-color: #f7f7f7;
+//}
 
-.bar.bar-header-secondary.showMenu {
-  left: 80%;
-}
-
-.bar.bar-header-secondary.show {
-  display: block;
-}
-
-.bar.bar-header-secondary {
-  display: none;
-}
-
-.bar.bar-footer-secondary.show {
-  display: block;
-}
-
-.bar.bar-footer-secondary {
-  display: none;
-}
-
-.bar.bar-footer.show {
-  display: block;
-}
-
-.bar.bar-footer {
-  display: none;
+.bar-header-secondary {
+  z-index: 10;            // workaround for navbar not displaying on iOS with liquidFire
 }
 
 .content.showMenu {
@@ -50,7 +27,7 @@
 }
 
 .content {
-  background-color: #efeff4;
+//  background-color: #efeff4;
   &.has-footer {
     padding-bottom: 45px;
   }
@@ -70,10 +47,6 @@
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
-}
-
-.card.padded {
-  padding: 20px;
 }
 
 .side-menu-wrapper {
