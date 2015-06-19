@@ -14,10 +14,10 @@ export default function() {
     );
 
     this.transition(
-        this.fromRoute(null),
-        this.toRoute('players.index'),
-        this.use('crossFade'),
-        this.reverse('crossFade')
+        this.fromRoute('players'),
+        this.toRoute('players.new'),
+        this.use('toUp'),
+        this.reverse('toDown')
     );
 
     this.transition(
