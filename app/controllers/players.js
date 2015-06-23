@@ -5,6 +5,23 @@ export default Ember.Controller.extend({
 
     selectedPlayer: null,
 
+    filter: '',
+
+    filteredContent: function(){
+        var filter = this.get('filter');
+        var players = this.get('model');
+
+        if (!Ember.isNone(filter) && filter.length > 0) {
+            var regexp = new RegExp(filter, 'gi');
+
+            return players.filter(function(player) {
+                return player.get('firstName').match(regexp) || player.get('lastName').match(regexp);
+            });
+        }
+
+        return players;
+    }.property('model', 'filter'),
+
     actions: {
         showMenu: function() {
             var appController = this.get('controllers.application');

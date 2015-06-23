@@ -6,13 +6,13 @@
 
 {{#secondary-header-bar showMenu=controllers.application.showMenu}}
   <form>
-    <input type="search" placeholder="Search">
+    {{input type="search" name="search" placeholder="Search" value=controller.filter}}
   </form>
 {{/secondary-header-bar}}
 
 {{#main-content showMenu=controllers.application.showMenu}}
   <ul class="table-view">
-      {{#each model as |player|}}
+      {{#each controller.filteredContent as |player|}}
         <li class="table-view-cell media">
             {{#link-to "player" player class="navigate-right"}}
               <img class="media-object pull-left" src="{{player.avatar}}">
