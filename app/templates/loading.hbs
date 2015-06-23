@@ -1,1 +1,25 @@
-<h1>warming up...</h1>
+{{#nav-bar showMenu=controllers.application.showMenu}}
+  <a class="icon icon-bars pull-left"></a>
+  <a class="icon icon-plus pull-right"></a>
+  <h1 class="title">Players</h1>
+{{/nav-bar}}
+
+{{#secondary-header-bar showMenu=controllers.application.showMenu}}
+  <form>
+      {{input type="search" name="firstName" placeholder="Search"}}
+  </form>
+{{/secondary-header-bar}}
+
+{{#main-content showMenu=controllers.application.showMenu}}
+  <ul class="table-view">
+    <li class="table-view-cell media">
+        <a>
+          <img class="media-object pull-left" src="">
+
+          <div class="media-body">
+              warming up...
+          </div>
+        </a>
+    </li>
+  </ul>
+{{/main-content}}
