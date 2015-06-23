@@ -15,16 +15,28 @@ export default Ember.Route.extend({
             this.transitionTo('players');
         },
         create: function() {
-            this.store.createRecord('player', {
+            var playerInfo = this.store.createRecord('player-info', {
+                appearances: 10,
+                goals: 20
+            });
+            
+            var player = this.store.createRecord('player', {
                 firstName: this.controller.get('firstName'),
                 lastName: this.controller.get('lastName')
-            }).save();
+            });
 
-            this.transitionTo('players');
+            var route = this;
+            playerInfo.save().then(function() {
+                player.set('info', playerInfo);
+                
+                player.save();
 
-            this.controller.setProperties({
-                firstName: null,
-                lastName: null
+                route.transitionTo('players');
+
+                route.controller.setProperties({
+                    firstName: null,
+                    lastName: null
+                });
             });
         }
     }

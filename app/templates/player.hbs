@@ -16,21 +16,21 @@
         <img class="media-object pull-left" src="{{model.avatar}}">
 
         <div class="media-body">
-            {{input name="name" value=model.firstName}}
-            {{input type="email" name="lastName" value=model.lastName}}
+            {{input name="name" value=model.firstName readonly="true" }}
+            {{input type="email" name="lastName" value=model.lastName readonly="true" }}
         </div>
       </li>
 
       <li class="table-view-cell">
         <a class="navigate-right">
-          <span class="pull-right">20</span>
+          <span class="pull-right">{{model.info.appearances}}</span>
           Appearances
         </a>
       </li>
 
       <li class="table-view-cell">
         <a class="navigate-right">
-          <span class="pull-right">4</span>
+          <span class="pull-right">{{model.info.goals}}</span>
           Goals
         </a>
       </li>

@@ -2,11 +2,20 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
     model: function(params) {
-        return this.store.find('player', params.player_id);
-    },
+        console.log(">>>>>>>>>>>>>>>");
+        var player = this.store.find('player', params.player_id);
+        
+        player.then(function() {
+            player.get('info').then(function() {
+            }, function(error) {
+                console.error("Unable to get player-info");
+                throw error;
+            });
+        }, function(error) {
+            console.error("Unable to get player");
+            throw error;
+        });
 
-//    renderTemplate: function(controller) {
-//        this.render('player/navbar', {outlet: 'header', controller: controller});
-//        this.render('player/index', {outlet: 'content', controller: controller});
-//    }
+        return player;
+    }
 });
