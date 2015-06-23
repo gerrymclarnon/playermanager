@@ -12,14 +12,11 @@
 
 {{#main-content showMenu=controllers.application.showMenu}}
   <ul class="table-view">
-    <li class="table-view-cell media">
-        <a>
-          <img class="media-object pull-left" src="">
-
-          <div class="media-body">
-              warming up...
-          </div>
-        </a>
-    </li>
+    <div class="loading-pane">
+      <div class="loading-message">
+        warming up...
+        <div class="spinner"></div>
+      </div>
+    </div>
   </ul>
 {{/main-content}}
