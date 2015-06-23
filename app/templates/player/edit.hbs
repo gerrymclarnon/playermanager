@@ -27,9 +27,6 @@
       <label>goals</label>
         {{input name="goals" value=model.info.goals}}
     </div>
+    <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>
   </form>
 {{/main-content}}
-
-{{#footer-bar showMenu=controllers.application.showMenu}}
-  <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>
-{{/footer-bar}}
