@@ -12,21 +12,47 @@
 {{#main-content showMenu=controllers.application.showMenu}}
   <form class="input-group">
     <div class="input-row">
-      <label>name</label>
-        {{input name="name" value=model.firstName}}
+        {{input name="name" type="email" placeholder="First" value=model.firstName}}
     </div>
     <div class="input-row">
-      <label>email</label>
-        {{input type="email" name="lastName" value=model.lastName}}
+        {{input name="lastName" type="email" placeholder="Last" value=model.lastName}}
     </div>
-    <div class="input-row">
-      <label>appearances</label>
-        {{input name="appearances" value=model.info.appearances}}
-    </div>
-    <div class="input-row">
-      <label>goals</label>
-        {{input name="goals" value=model.info.goals}}
-    </div>
-    <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>
   </form>
+  <h5 class="content-padded">Profile</h5>
+  <ul class="table-view">
+    <li class="table-view-cell media">
+      <span class="media-object pull-left icon icon-sound"></span>
+
+      <div class="media-body">
+        Dangerous
+      </div>
+      <div class="toggle">
+        <div class="toggle-handle"></div>
+      </div>
+    </li>
+    <li class="table-view-cell media">
+      <span class="media-object pull-left icon icon-person"></span>
+
+      <div class="media-body">
+        Dodgy
+      </div>
+      <div class="toggle">
+        <div class="toggle-handle"></div>
+      </div>
+    </li>
+  </ul>
+  <h5 class="content-padded">This Season</h5>
+  <form class="input-group">
+    <div class="input-row">
+      <label>Appearances</label>
+        {{input name="appearances" type="number" value=model.info.appearances}}
+    </div>
+    <div class="input-row">
+      <label>Goals</label>
+        {{input name="goals" type="number" value=model.info.goals}}
+    </div>
+  </form>
+  <div class="content-padded">
+    <button {{action 'delete' this}} class="btn btn-negative btn-block">Delete</button>
+  </div>
 {{/main-content}}

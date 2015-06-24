@@ -10,17 +10,19 @@
 {{/nav-bar}}
 
 {{#main-content showMenu=controllers.application.showMenu}}
+  <ul class="table-view">
+    <li class="table-view-cell media">
+      <img class="media-object pull-left" src="{{model.avatar}}">
+
+      <div class="media-body">
+        <h4>{{model.fullName}}</h4>
+        <p>midfielder</p>
+      </div>
+    </li>
+  </ul>
+  <h5 class="content-padded">This Season</h5>
   <form class="input-group">
     <ul class="table-view">
-      <li class="table-view-cell media">
-        <img class="media-object pull-left" src="{{model.avatar}}">
-
-        <div class="media-body">
-            {{input name="name" value=model.firstName readonly="true" }}
-            {{input type="email" name="lastName" value=model.lastName readonly="true" }}
-        </div>
-      </li>
-
       <li class="table-view-cell">
         <a class="navigate-right">
           <span class="pull-right">{{model.info.appearances}}</span>
@@ -40,6 +42,24 @@
         <div class="toggle active">
           <div class="toggle-handle"></div>
         </div>
+      </li>
+    </ul>
+  </form>
+  <h5 class="content-padded">Contact Info</h5>
+  <form class="input-group">
+    <ul class="table-view">
+      <li class="table-view-cell">
+        <a class="navigate-right">
+          <span class="pull-right">{{model.info.appearances}}</span>
+          Phone
+        </a>
+      </li>
+
+      <li class="table-view-cell">
+        <a class="navigate-right">
+          <span class="pull-right">{{model.info.goals}}</span>
+          Email
+        </a>
       </li>
     </ul>
   </form>
