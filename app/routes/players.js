@@ -16,6 +16,7 @@ export default Ember.Route.extend({
         },
 
         logout: function () {
+            this.get('controller.controllers.application').send('showMenu');
             this.transitionTo('login');
         }
     }

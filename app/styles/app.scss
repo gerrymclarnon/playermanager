@@ -14,12 +14,16 @@
   transition: all 0.3s;
 }
 
-//.bar-nav {
-//  background-color: #f7f7f7;
-//}
-
 .bar-header-secondary {
   z-index: 10;            // workaround for navbar not displaying on iOS with liquidFire
+}
+
+.bar-nav {
+  background-color: #5cb85c;
+}
+
+.bar .btn-link {
+  color: white;
 }
 
 .bar-footer {
@@ -35,10 +39,15 @@
   &.has-footer {
     padding-bottom: 45px;
   }
+  overflow: hidden;
 }
 
 .content > .table-view:first-child {
   margin-top: 0;
+}
+
+.icon {
+  color: #FFFFFF;
 }
 
 .table-view.has-header {
@@ -51,6 +60,10 @@
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
+}
+
+.title {
+  color: #FFFFFF;
 }
 
 .side-menu-wrapper {
