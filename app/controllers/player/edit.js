@@ -34,7 +34,7 @@ export default Ember.Controller.extend({
             navigator.camera.getPicture(onGetPictureSuccess, onGetPictureError, {
                 destinationType:    Camera.DestinationType.DATA_URL,
                 encodingType:       Camera.EncodingType.JPEG,
-                correctOrientation: true
+                correctOrientation: false
             });
         }
     }
