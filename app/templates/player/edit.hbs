@@ -10,6 +10,10 @@
 {{/nav-bar}}
 
 {{#main-content showMenu=controllers.application.showMenu}}
+  <img class="media-object pull-left" src="{{model.photo}}" style="width: 100%">
+  <div class="content-padded">
+    <button {{action 'takePhoto' this}} class="btn btn-block">Take Photo</button>
+  </div>
   <form class="input-group">
     <div class="input-row">
         {{input name="name" type="email" placeholder="First" value=model.firstName}}
