@@ -1,26 +1,28 @@
+{{#nav-bar showMenu=controllers.application.showMenu}}
+    <h1 class="title">PlayerManager</h1>
+{{/nav-bar}}
+
 {{#main-content showMenu=controllers.application.showMenu}}
-  <form autocomplete="off">
-      {{input type="email" class="form-control" placeholder="Email" id="username" value=username}}
-      {{input type="password" class="form-control" placeholder="Password" id="password" value=password}}
+    <div class="content-padded">
+        <form autocomplete="off">
+            {{input type="email" class="form-control" placeholder="Email" id="username" value=username}}
+            {{input type="password" class="form-control" placeholder="Password" id="password" value=password}}
 
-      {{#if errorMessage}}
-        <div class="alert alert-error">
-            {{errorMessage}}
-        </div>
-      {{/if}}
+            {{#if errorMessage}}
+                <div class="alert alert-error">
+                    {{errorMessage}}
+                </div>
+            {{/if}}
 
-    <input type="submit" value="Login"
-           class="btn btn-positive btn-block" {{action "login" username password "home"}} />
+            <input type="submit" value="Login"
+                   class="btn btn-positive btn-block" {{action "login" username password "home"}} />
 
-    <div class="form-group">
-      <h4>Login with</h4>
-      <input type="submit" value="Facebook"
-             class="btn btn-primary bt-social" {{action "login3rdParty" "facebook"}} />
-      <input type="submit" value="Twitter"
-             class="btn btn-primary bt-social" {{action "login3rdParty" "twitter"}} />
-      <input type="submit" value="Google"
-             class="btn btn-primary bt-social" {{action "login3rdParty" "google"}} />
-      <a href="#" class="btn btn-warning" id="btAnon">Anon</a>
+            <div class="form-group">
+                <h4>...or login with...</h4>
+                <button class="btn btn-primary bt-social" {{action "login3rdParty" "facebook"}}>Facebook</button>
+                <button class="btn btn-primary bt-social" {{action "login3rdParty" "twitter"}}>Twitter</button>
+                <button class="btn btn-primary bt-social" {{action "login3rdParty" "google"}}>Google</button>
+            </div>
+        </form>
     </div>
-  </form>
 {{/main-content}}
