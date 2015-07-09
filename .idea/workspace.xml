@@ -597,7 +597,7 @@
       <workItem from="1435167745033" duration="14273000" />
       <workItem from="1436471240838" duration="355000" />
       <workItem from="1436471726575" duration="318000" />
-      <workItem from="1436474288597" duration="1251000" />
+      <workItem from="1436474288597" duration="1288000" />
     </task>
     <task id="LOCAL-00001" summary="Updated deprecated transitionTo method calls to transitionToRoute.">
       <created>1427893940690</created>
@@ -815,11 +815,15 @@
       <created>1436475553803</created>
       <updated>1436475553804</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1436475584944</created>
+      <updated>1436475584944</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="211578000" />
+    <option name="totallyTimeSpent" value="211615000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
