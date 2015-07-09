@@ -2,191 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0feceb1-a268-4315-abcd-3ccb08a837dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default-568h@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default-667h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default-Landscape-736h.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default-Landscape@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default-Landscape~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default-Portrait@2x~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default-Portrait~ipad.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default@2x~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/splash/Default~iphone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/images/ajax-loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/failed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-40.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-40@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-50.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-50@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-60.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-60@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-60@3x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-72.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-72@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-76.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-76@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-small.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon-small@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Resources/icons/icon@2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/images/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/passed.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/ratchicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/ratchicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/ratchicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/www" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Classes/AppDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Classes/AppDelegate.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDV.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVAvailability.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVAvailabilityDeprecated.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVConfigParser.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVConfigParser.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVDebug.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVHandleOpenURL.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVHandleOpenURL.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVJSON.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVJSON.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVJSON_private.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVJSON_private.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/src/ios/CDVNavigationWhitelistPlugin.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/src/ios/CDVNavigationWhitelistPlugin.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVPlugin.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVPlugin.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVPluginResult.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVPluginResult.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVShared.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Plugins/cordova-plugin-statusbar/CDVStatusBar.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/src/ios/CDVStatusBar.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Plugins/cordova-plugin-statusbar/CDVStatusBar.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/src/ios/CDVStatusBar.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVTimer.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVTimer.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVWhitelist.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/CDVWhitelist.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/CordovaLib_Prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Classes/MainViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Classes/MainViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Classes/MainViewController.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/NOTICE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/NOTICE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/NSData+Base64.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/NSData+Base64.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/PlayerManager-Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/PlayerManager-Prefix.pch" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager.xcodeproj/project.xcworkspace/xcshareddata/PlayerManager.xccheckout" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/hooks/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/de/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/es/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/fr/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/it/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/ja/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/ko/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/pl/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/zh/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/doc/de/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/doc/es/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/doc/fr/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/doc/it/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/doc/ja/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/doc/ko/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/doc/pl/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/doc/zh/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/Plugins/README" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/RELEASENOTES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/RELEASENOTES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/src/wp/StatusBar.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/src/android/StatusBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/src/windows/StatusBarProxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/VERSION" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/src/android/WhitelistPlugin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager.xcodeproj/project.xcworkspace/contents.xcworkspacedata" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/platform_www/cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/cordova_plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/crossdomain.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/ember-data.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/fetch.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/tests/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/de/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/es/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/fr/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/it/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/ja/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/ko/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/pl/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/ru/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/doc/zh/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/ios.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager/main.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/playermanager.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/playermanager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/playermanager.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/tests/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/CordovaLib/CordovaLib.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/PlayerManager.xcodeproj/project.pbxproj" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/fonts/ratchicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/plugins/cordova-plugin-statusbar/www/statusbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/www/statusbar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/test-loader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/test-support.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/test-support.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/test-support.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/testem.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-statusbar/tests/tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/vendor.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/vendor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/platforms/ios/www/assets/vendor.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cordova2/plugins/cordova-plugin-whitelist/whitelist.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="playermanager.iws" />
@@ -241,8 +56,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -255,16 +70,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="2520">
               <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loading.hbs" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/loading.hbs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -283,7 +88,7 @@
       <file leaf-file-name="player.hbs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/templates/player.hbs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="1065">
+            <state vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="1065">
               <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
@@ -305,16 +110,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
               <caret line="5" column="18" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cordova2/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56962025" vertical-offset="0" max-vertical-offset="711">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -343,8 +138,28 @@
       <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="735">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
               <caret line="23" column="22" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cordova/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+              <caret line="13" column="58" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/player/edit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.19417475" vertical-offset="0" max-vertical-offset="618">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -449,6 +264,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -478,13 +294,66 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cordova2" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playermanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playermanager" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playermanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playermanager" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="player" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playermanager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="playermanager" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,6 +392,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cordova2" />
       <recent name="$PROJECT_DIR$/app/templates/player" />
       <recent name="$PROJECT_DIR$/app/controllers/players" />
       <recent name="$PROJECT_DIR$/app/controllers/player" />
@@ -575,38 +445,6 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -633,6 +471,38 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -727,6 +597,7 @@
       <workItem from="1435167745033" duration="14273000" />
       <workItem from="1436471240838" duration="355000" />
       <workItem from="1436471726575" duration="318000" />
+      <workItem from="1436474288597" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Updated deprecated transitionTo method calls to transitionToRoute.">
       <created>1427893940690</created>
@@ -940,11 +811,15 @@
       <created>1436471854833</created>
       <updated>1436471854834</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <created>1436475553803</created>
+      <updated>1436475553804</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210327000" />
+    <option name="totallyTimeSpent" value="211578000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -974,7 +849,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40258542" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40240517" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -983,7 +858,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3017621" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31637374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31637374" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963988" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1036,12 +911,12 @@
     <MESSAGE value="Added search text box; fixed dodgy route." />
     <MESSAGE value="Updated style of edit." />
     <MESSAGE value="Updated style of delete." />
-    <MESSAGE value="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
     <MESSAGE value="Implemented ratchet components&#10;" />
     <MESSAGE value="Fixed iOS navbar display issue." />
     <MESSAGE value="Moved delete button" />
     <MESSAGE value="Codova iOS integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Codova iOS integration" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/gerrymclarnon/playermanager&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1053,13 +928,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/ember-cli-ratchet/vendor/ratchet/sass/ratchicons.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.9050279" vertical-offset="486" max-vertical-offset="1260">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/ember-cli-ratchet/vendor/ratchet/sass/ratchet.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
@@ -1113,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,13 +1180,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/player/edit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="465">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/routes/players/new.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="720">
@@ -1413,10 +1273,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cordova2/config.xml">
+    <entry file="file://$PROJECT_DIR$/cordova/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56962025" vertical-offset="0" max-vertical-offset="711">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="525">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/player/edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19417475" vertical-offset="0" max-vertical-offset="618">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
