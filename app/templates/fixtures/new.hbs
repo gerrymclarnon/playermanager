@@ -1,0 +1,44 @@
+{{#nav-bar showMenu=controllers.application.showMenu}}
+  <button {{action 'cancel'}} class="btn btn-link btn-nav pull-left">
+    <span class="icon icon-close"></span>
+    Cancel
+  </button>
+  <button {{action 'create'}} class="btn btn-link btn-nav pull-right">
+    Save
+    <span class="icon icon-check"></span>
+  </button>
+  <h1 class="title">Add Match</h1>
+{{/nav-bar}}
+
+{{#main-content showMenu=controllers.application.showMenu}}
+  <form class="input-group">
+    <div class="input-row">
+      <label>home team</label>
+        {{input name="homeTeam" value=controller.homeTeam}}
+    </div>
+      <div class="input-row">
+          <label>away team</label>
+          {{input type="text" name="awayTeam" value=controller.awayTeam}}
+      </div>
+      <div class="input-row">
+          <label>date</label>
+          {{input type="date" name="date" value=controller.date}}
+      </div>
+      <div class="input-row">
+          <label>time</label>
+          {{input type="time" name="time" value=controller.time}}
+      </div>
+      <div class="input-row">
+          <label>venue</label>
+          {{input type="text" name="venue" value=controller.venue}}
+      </div>
+      <div class="input-row">
+          <label>home team goals</label>
+          {{input type="number" name="homeTeamGoals" value=controller.homeTeamGoals}}
+      </div>
+      <div class="input-row">
+          <label>away team goals</label>
+          {{input type="number" name="awayTeamGoals" value=controller.awayTeamGoals}}
+      </div>
+  </form>
+{{/main-content}}

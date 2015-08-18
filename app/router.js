@@ -18,6 +18,14 @@ Router.map(function() {
     this.resource('player', { path: '/players/:player_id' }, function() {
         this.route('edit', { path: '/edit' });
     });
+
+    this.resource('fixtures', { path: '/fixtures' }, function() {
+        this.route("new", { path: "/new" });
+    });
+
+    this.resource('fixture', { path: '/fixtures/:fixture_id' }, function() {
+        this.route('edit', { path: '/edit' });
+    });
 });
 
 export default Router;

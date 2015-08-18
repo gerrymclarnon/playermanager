@@ -2,7 +2,7 @@ import Ember from 'ember';
 
 export default Ember.Route.extend({
     model: function() {
-        return this.store.find('player');
+        return this.store.find('fixture');
     },
 
     actions: {
@@ -16,8 +16,8 @@ export default Ember.Route.extend({
             this.transitionTo('fixtures');
         },
 
-        addPlayer: function () {
-            this.transitionTo('players.new');
+        addFixture: function () {
+            this.transitionTo('fixtures.new');
         },
 
         logout: function () {

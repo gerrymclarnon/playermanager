@@ -17,7 +17,7 @@
  under the License.
  */
 //
-// Prefix header for all source files of the 'Playermanager' target in the 'Playermanager' project
+// Prefix header for all source files of the 'PlayerManager' target in the 'PlayerManager' project
 //
 
 #ifdef __OBJC__

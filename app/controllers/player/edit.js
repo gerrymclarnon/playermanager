@@ -20,6 +20,22 @@ export default Ember.Controller.extend({
         delete: function(player) {
             player.destroyRecord();
             this.transitionTo('players');
+        },
+        takePhoto: function (player) {
+
+            function onGetPictureSuccess(imageData) {
+                player.set('photo', 'data:image/jpeg;base64,' + imageData);
+            }
+
+            function onGetPictureError(message) {
+                console.log('photo not taken: ' + message);
+            }
+
+            navigator.camera.getPicture(onGetPictureSuccess, onGetPictureError, {
+                destinationType:    Camera.DestinationType.DATA_URL,
+                encodingType:       Camera.EncodingType.JPEG,
+                correctOrientation: false
+            });
         }
     }
 });

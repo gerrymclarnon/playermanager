@@ -1,0 +1,40 @@
+{{#nav-bar showMenu=controllers.application.showMenu}}
+    {{#link-to "players" class="btn btn-link btn-nav pull-left"}}
+      <span class="icon icon-left-nav"></span>
+      All Fixtures
+    {{/link-to}}
+    {{#link-to "fixture.edit" model class="btn btn-link btn-nav pull-right"}}
+      Edit
+      <span class="icon icon-more-vertical"></span>
+    {{/link-to}}
+{{/nav-bar}}
+
+{{#main-content showMenu=controllers.application.showMenu}}
+  <ul class="table-view">
+    <li class="table-view-cell media">
+      <div class="media-body">
+        <h4>{{model.homeTeam}} {{model.homeTeamGoals}} - {{model.awayTeamGoals}} {{model.awayTeam}}</h4>
+        <p>{{model.date}}</p>
+        <p>{{model.venue}}</p>
+      </div>
+    </li>
+  </ul>
+  <h5 class="content-padded">Scorers</h5>
+  <form class="input-group">
+      <ul class="table-view">
+          <li class="table-view-cell">
+            <span class="pull-left">{{model.info.scorers}}</span>
+          </li>
+      </ul>
+  </form>
+  <h5 class="content-padded">Team</h5>
+  <form class="input-group">
+      <ul class="table-view">
+          {{#each model.info as |player|}}
+              <li class="table-view-cell">
+                <span class="pull-left">{{player.firstName}}</span>
+              </li>
+          {{/each}}
+      </ul>
+  </form>
+{{/main-content}}
