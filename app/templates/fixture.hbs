@@ -1,5 +1,5 @@
 {{#nav-bar showMenu=controllers.application.showMenu}}
-    {{#link-to "players" class="btn btn-link btn-nav pull-left"}}
+    {{#link-to "fixtures" class="btn btn-link btn-nav pull-left"}}
       <span class="icon icon-left-nav"></span>
       All Fixtures
     {{/link-to}}
@@ -30,7 +30,7 @@
   <h5 class="content-padded">Team</h5>
   <form class="input-group">
       <ul class="table-view">
-          {{#each model.info as |player|}}
+          {{#each model.info.players as |player|}}
               <li class="table-view-cell">
                 <span class="pull-left">{{player.firstName}}</span>
               </li>

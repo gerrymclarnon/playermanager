@@ -1,0 +1,31 @@
+{{#nav-bar showMenu=controllers.application.showMenu}}
+  <button {{action 'cancel' this}} class="btn btn-link btn-nav pull-left">
+    <span class="icon icon-close"></span>
+    Cancel
+  </button>
+  <button {{action 'update' this}} class="btn btn-link btn-nav pull-right">
+    Save
+    <span class="icon icon-check"></span>
+  </button>
+{{/nav-bar}}
+
+{{#main-content showMenu=controllers.application.showMenu}}
+  <ul class="table-view">
+    <li class="table-view-cell media">
+      <div class="media-body">
+        <h4>{{model.homeTeam}} {{model.homeTeamGoals}} - {{model.awayTeamGoals}} {{model.awayTeam}}</h4>
+        <p>{{model.date}}</p>
+        <p>{{model.venue}}</p>
+      </div>
+    </li>
+  </ul>
+  <h5 class="content-padded">Scorers ({{controller.players.length}})</h5>
+  <form class="input-group">
+      {{#each controller.players as |player|}}
+          <div class="input-row">
+            <label>{{player.firstName}}</label>
+            {{input name="goals" type="number" value=player.goals}}
+          </div>
+      {{/each}}
+  </form>
+{{/main-content}}

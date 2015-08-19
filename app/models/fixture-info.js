@@ -1,7 +1,11 @@
 import DS from 'ember-data';
 
 export default DS.Model.extend({
-  scorers: DS.attr('string'),
-  team: DS.hasMany('player'),
-  fixture: DS.belongsTo('fixture')
+    homeTeamGoals: DS.hasMany('goal'),
+    awayTeamGoals: DS.hasMany('goal'),
+    team: DS.hasMany('player'),
+//    team: DS.attr('player', {
+//        defaultValue: function() { return new Date(); }
+//    }),
+    fixture: DS.belongsTo('fixture')
 });

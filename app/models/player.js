@@ -8,7 +8,6 @@ export default DS.Model.extend({
         return this.get('firstName') + ' ' + this.get('lastName');
     }),
     photo: DS.attr('string'),
-    avatar: DS.attr('string', { defaultValue: 'http://ryanflorence.com/jsconf-avatars/avatars/ryan.jpg'}),
     info: DS.belongsTo('player-info', { async: true }),
     fixtures: DS.hasMany('fixture')
 });
